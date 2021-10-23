@@ -1,0 +1,7 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>my.sunway.education.group5</groupId>
+    <artifactId>boatgame</artifactId>
+    <name>boatgame</name>
+    <version>1.0</version>
+</project>
