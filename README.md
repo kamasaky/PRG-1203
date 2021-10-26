@@ -32,6 +32,7 @@ Tips: You can add any additional attributes to the objects in this game which yo
 
 
 ### Technical info
+- Java 11 as main language
 - This project use Maven as build tool
 
 ### Team
