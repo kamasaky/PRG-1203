@@ -40,4 +40,4 @@ Tips: You can add any additional attributes to the objects in this game which yo
 - Egor Voronianskii(id: 19102631) - developer
 - Ray - developer
 - Huseina - developer/QA
-- Lousim Lim - develop/QA
+- Lousim Lim - developer/QA
