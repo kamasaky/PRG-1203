@@ -68,8 +68,10 @@ What things we going to use in order to build the website:
 ## 🔧 Technical activities <a name = "technical_activities"></a>
 -Analyze and develop the Java program as per described using the Object-Oriented
 design
+<br>
 -Design program for optimum maintainability and reusability with the best
 practices of object-oriented techniques
+<br>
 -Document design using the UML class and class relationship diagrams
 
 
@@ -83,45 +85,66 @@ ended and the score of the player is within the top 5 scores, store the player�
 ## 📜 Tasks and deliverables <a name="tasks_and_deliverables"></a>
 
 <b>Task 1:</b> Display Top 5 scores, ask the player for the name and order it in ascending order
+<br>
 <b>Person in charge:</b> [@Egor Voronianskii](https://github.com/vrnsky)
 
 <b>Task 2:</b> Creation of the boat class
+<br>
 <b>Person in charge:</b> [@Huseina Murtaza Sulemanji](https://github.com/Huseina02)
 
 <b>Task 3:</b> Creation of the player class
+<br>
 <b>Person in charge:</b> [@Lim Yuet Ling](https://github.com/Louise-Lim)
 
 <b>Task 4:</b> Creation of the logic of the game
+<br>
 <b>Person in charge:</b> [@Kolailat Rayan](https://github.com/justrray)
 
 <b>Task 5:</b> Creation of additional functionality according to the recommendation
+<br>
 <b>Person in charge:</b> [@Kambar Mirmanov](https://github.com/kamasaky)
 
 
 ## 🗓️ Establishes schedules <a name="schedules"></a>
 
 1-7th October: Create the WhatsUpp group and add all members 
+<br>
 7-14th October: Discuus assignment requirements and criterias, 
+<br>
 14-21st October: Determine and divide all tasks and roles among all group members
-21-28th October: Create the github repository for the assignment source code, add ReadMe.md and other files.
-28th October - 5th Novermber: Check technical progress among group members, align to the design in the UML diagrams.
+<br>
+21-28th October: Create the github repository for the assignment source code, add ReadMe.md and other files
+<br>
+28th October - 5th Novermber: Check technical progress among group members, align to the design in the UML diagrams
+<br>
 5-12th November: Discuss the issues and test the written code
-12-17th November: Deploy the game and check for any bugs or errors.
-17-25th Novermber:  Fix the bugs if any, create the presentation slides and record the presentation.
-25-30th November: Sign the assignment sheet and submit on eLearn.
+<br>
+12-17th November: Deploy the game and check for any bugs or errors
+<br>
+17-25th Novermber:  Fix the bugs if any, create the presentation slides and record the presentation
+<br>
+25-30th November: Sign the assignment sheet and submit on eLearn
 
 ## 📌 Achievement criteria <a name="criteria"></a>
 -The game runs smoothly without any errors
+<br>
 -The game has good code structure
+<br>
 -The design has been presented in UML diagrams
+<br>
 -The game is optimized  with appropriate exception handling
+<br>
 -The game has at least one additional enhancement or functionality
+<br>
 -The game is user-friendly
 
 ## ⚙️ Required resources to accomplish tasks <a name="resources"></a>
 -Greenfoot
+<br>
 -Java IDE
+<br>
 -Github
+<br>
 -A lot of coffee probably
 
 ## ✍️ Authors <a name = "authors"></a>
