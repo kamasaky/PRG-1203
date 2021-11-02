@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://img.jakpost.net/c/2019/03/12/2019_03_12_67439_1552382803._large.jpg">
+  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iotgadgets.com%2Fwp-content%2Fuploads%2F2017%2F10%2FGame-Speed-Boat-Racing-3D-4.jpg&f=1&nofb=1">
 </div>
 
 <h1 align="center">Object-oriented programming fundamentals Group 5 Assignment</h1>
