@@ -109,7 +109,7 @@ ended and the score of the player is within the top 5 scores, store the playerâ€
 
 <i>1-7th October:</i> Create the WhatsUpp group and add all members 
 <br>
-<i>7-14th October:</i> Discuus assignment requirements and criterias, 
+<i>7-14th October:</i> Discuus assignment requirements and criterias
 <br>
 <i>14-21st October:</i> Determine and divide all tasks and roles among all group members
 <br>
