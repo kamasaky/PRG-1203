@@ -68,10 +68,10 @@ What things we going to use in order to build the website:
 ## 🔧 Technical activities <a name = "technical_activities"></a>
 -Analyze and develop the Java program as per described using the Object-Oriented
 design
-<br>
+<br><br>
 -Design program for optimum maintainability and reusability with the best
 practices of object-oriented techniques
-<br>
+<br><br>
 -Document design using the UML class and class relationship diagrams
 
 
