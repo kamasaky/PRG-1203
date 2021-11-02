@@ -107,45 +107,45 @@ ended and the score of the player is within the top 5 scores, store the player�
 
 ## 🗓️ Establishes schedules <a name="schedules"></a>
 
-1-7th October: Create the WhatsUpp group and add all members 
+<i>1-7th October:</i> Create the WhatsUpp group and add all members 
 <br>
-7-14th October: Discuus assignment requirements and criterias, 
+<i>7-14th October:</i> Discuus assignment requirements and criterias, 
 <br>
-14-21st October: Determine and divide all tasks and roles among all group members
+<i>14-21st October:</i> Determine and divide all tasks and roles among all group members
 <br>
-21-28th October: Create the github repository for the assignment source code, add ReadMe.md and other files
+<i>21-28th October:</i> Create the github repository for the assignment source code, add ReadMe.md and other files
 <br>
-28th October - 5th Novermber: Check technical progress among group members, align to the design in the UML diagrams
+<i>28th October - 5th Novermber:</i> Check technical progress among group members, align to the design in the UML diagrams
 <br>
-5-12th November: Discuss the issues and test the written code
+<i>5-12th November:</i> Discuss the issues and test the written code
 <br>
-12-17th November: Deploy the game and check for any bugs or errors
+<i>12-17th November:</i> Deploy the game and check for any bugs or errors
 <br>
-17-25th Novermber:  Fix the bugs if any, create the presentation slides and record the presentation
+<i>17-25th Novermber:</i> Fix the bugs if any, create the presentation slides and record the presentation
 <br>
-25-30th November: Sign the assignment sheet and submit on eLearn
+<i>25-30th November:</i> Sign the assignment sheet and submit on eLearn
 
 ## 📌 Achievement criteria <a name="criteria"></a>
--The game runs smoothly without any errors
+<b>-The game runs smoothly without any errors</b>
 <br>
--The game has good code structure
+<b>-The game has good code structure</b>
 <br>
--The design has been presented in UML diagrams
+<b>-The design has been presented in UML diagrams</b>
 <br>
--The game is optimized  with appropriate exception handling
+<b>-The game is optimized  with appropriate exception handling</b>
 <br>
--The game has at least one additional enhancement or functionality
+<b>-The game has at least one additional enhancement or functionality</b>
 <br>
--The game is user-friendly
+<b>-The game is user-friendly</b>
 
 ## ⚙️ Required resources to accomplish tasks <a name="resources"></a>
--Greenfoot
+<b>-Greenfoot</b>
 <br>
--Java IDE
+<b>-Java IDE</b>
 <br>
--Github
+<b>-Github</b>
 <br>
--A lot of coffee probably
+<b>-A lot of coffee probably</b>
 
 ## ✍️ Authors <a name = "authors"></a>
 
