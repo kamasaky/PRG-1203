@@ -14,6 +14,11 @@ public abstract class RiverObject {
     protected int strength;
 
     /**
+     * Name of object.
+     */
+    protected String name;
+
+    /**
      * Constructor for creating new RiverObject
      * @param strength - strength of the river object
      */
@@ -22,10 +27,24 @@ public abstract class RiverObject {
     }
 
     /**
+     *
+     * @param strength
+     * @param name
+     */
+    public RiverObject(int strength, String name) {
+        this.strength = strength;
+        this.name = name;
+    }
+
+    /**
      * Return strength of the river object
      * @return int which represents strength of the river object
      */
     public int getStrength() {
         return strength;
+    }
+
+    public String getName() {
+        return name;
     }
 }
