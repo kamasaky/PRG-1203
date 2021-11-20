@@ -6,7 +6,7 @@ import my.sunway.group5.io.InputOutput;
 
 public class GameStarter {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         GameConfig gameConfig = new GameConfig("", "./TopScores.txt");
         InputOutput inputOutput = new ConsoleIO();
         new Game(gameConfig, inputOutput).start();
