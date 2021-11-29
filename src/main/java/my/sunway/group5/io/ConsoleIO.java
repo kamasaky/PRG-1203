@@ -3,6 +3,7 @@ package my.sunway.group5.io;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Scanner;
 
 /**
  * It is implementation of input and output interfaces
@@ -18,10 +19,16 @@ public class ConsoleIO implements InputOutput {
     private BufferedReader bufferedReader;
 
     /**
+     * Instance of scanner
+     */
+    private Scanner scanner;
+
+    /**
      * Constructor. Only assign real buffered reader to variable above
      */
     public ConsoleIO() {
         this.bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        this.scanner = new Scanner(System.in);
     }
 
     /**
@@ -64,6 +71,11 @@ public class ConsoleIO implements InputOutput {
                 String input = bufferedReader.readLine();
                 if (input != null && !"".equals(input)) {
                     value = Integer.parseInt(input);
+                    isValidInput = true;
+                }
+                if (value < 0) {
+                    System.out.println(value + " is negative number, please enter positive number (>0)");
+                    isValidInput = false;
                 }
             } catch (IOException ioe) {
                 System.out.println("Sorry, I don't understand this");

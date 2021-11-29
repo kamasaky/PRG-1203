@@ -23,7 +23,8 @@ public class TopScoresService {
         }
     }
 
-    public boolean saveTopScores(List<String> strings) {
-        return false;
+    public boolean saveTopScores(List<String> strings) throws Exception {
+        Files.write(Paths.get(path), strings);
+        return true;
     }
 }
