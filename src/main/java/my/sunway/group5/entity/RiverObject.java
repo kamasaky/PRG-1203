@@ -19,6 +19,16 @@ public abstract class RiverObject {
     protected String name;
 
     /**
+     * Flag that this cell has visited by any player
+     */
+    protected boolean hasVisited;
+
+    /**
+     * Name of player which visited cell
+     */
+    protected String visitedBy;
+
+    /**
      * Constructor for creating new RiverObject
      * @param strength - strength of the river object
      */
@@ -44,6 +54,10 @@ public abstract class RiverObject {
         return strength;
     }
 
+    /**
+     * Return name of river object
+     * @return name of river object
+     */
     public String getName() {
         return name;
     }
