@@ -63,6 +63,7 @@ public class Game {
             }
         }
         printGameState(players);
+        printUnmaskedRiver();
         storeScoring(this.winner);
     }
 
@@ -91,6 +92,7 @@ public class Game {
         inputOutput.notifyUser(buffer.toString());
     }
 
+
     private int gitStepWithNotification(Player player) {
         int step = random.nextInt(dice.getMax() - dice.getMin()) + dice.getMin();
         inputOutput.notifyUser("It is " + player.getName() + "\'s turn and he/she got " + step);
@@ -109,10 +111,14 @@ public class Game {
             if (riverObject instanceof Current) {
                 Current current = (Current) riverObject;
                 inputOutput.notifyUser(player.getName() + " was caught by current with strength = " + current.getStrength());
+                current.setHasVisited(true);
+                current.setVisitedBy(player.getName());
                 return player.getPosition() + current.getStrength();
             } else if (riverObject instanceof Trap) {
                 Trap trap = (Trap) riverObject;
                 inputOutput.notifyUser(player.getName() + " was caught by trap with strength = " + trap.getStrength());
+                trap.setVisitedBy(player.getName());
+                trap.setHasVisited(true);
                 return player.getPosition() + trap.getStrength();
             } else {
                 return player.getPosition() + step;
@@ -137,5 +143,35 @@ public class Game {
                 river[index] = index % 2 == 0 ? new RiverCell(new Trap(strength)) : new RiverCell(new Current(strength));
             }
         }
+    }
+
+    private void printUnmaskedRiver() {
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int index = 0; index < this.river.length; index++) {
+            RiverCell riverCell = this.river[index];
+            if (riverCell != null) {
+                RiverObject riverObject = riverCell.getRiverObject();
+                if (riverObject == null) {
+                    stringBuilder.append("[").append(" ").append("]");
+                } else if (riverObject instanceof Trap) {
+                    Trap trap = (Trap) riverObject;
+                    if (trap.isHasVisited()) {
+                        stringBuilder.append("[").append("T has visited by ").append(trap.getVisitedBy()).append("]");
+                    } else {
+                        stringBuilder.append("[").append("T").append("]");
+                    }
+                } else if (riverObject instanceof Current) {
+                    Current trap = (Current) riverObject;
+                    if (trap.isHasVisited()) {
+                        stringBuilder.append("[").append("C has visited by ").append(trap.getVisitedBy()).append("]");
+                    } else {
+                        stringBuilder.append("[").append("C").append("]");
+                    }
+                }
+            } else {
+                stringBuilder.append("[").append(" ").append("]");
+            }
+        }
+        inputOutput.notifyUser(stringBuilder.toString());
     }
 }

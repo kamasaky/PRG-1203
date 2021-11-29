@@ -61,4 +61,36 @@ public abstract class RiverObject {
     public String getName() {
         return name;
     }
+
+    /**
+     * Return true if has visited by any player, otherwise false
+     * @return true if has visited by any player, otherwise false
+     */
+    public boolean isHasVisited() {
+        return hasVisited;
+    }
+
+    /**
+     * Set someone has visited this trap
+     * @param hasVisited - true or flase
+     */
+    public void setHasVisited(boolean hasVisited) {
+        this.hasVisited = hasVisited;
+    }
+
+    /**
+     * Get name of visitor
+     * @return the name of visitor
+     */
+    public String getVisitedBy() {
+        return visitedBy;
+    }
+
+    /**
+     * Set name of the visitor
+     * @param visitedBy - name of visitor
+     */
+    public void setVisitedBy(String visitedBy) {
+        this.visitedBy = visitedBy;
+    }
 }
